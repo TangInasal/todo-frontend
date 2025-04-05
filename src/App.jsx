@@ -12,7 +12,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const BASE_URL = 'https://todo-backendd-hdpm.onrender.com/api/v1/tasks/';
+  const BASE_URL = 'https://todo-backendd-hdpm.onrender.com/api/v1/todo/';
 
   useEffect(() => {
     const savedMode = localStorage.getItem('darkMode');
